@@ -5306,7 +5306,7 @@ Showdown.converter = function() {
       });
       position = this.button.position();
       elementWidth = this.element.width();
-      elementHeight = this.element.height();
+      //elementHeight = this.element.height();
       documentHeight = jQuery(document).height();
       top = position.top + (this.button.height() / 2) - (elementHeight / 2);
       if (top < position.top - 100) {
@@ -5326,7 +5326,7 @@ Showdown.converter = function() {
       return this.element.css({
         top: top,
         left: left,
-        height: height,
+        height: 'auto',
         display: keepVisible ? 'block' : 'none',
         visibility: 'visible'
       });
