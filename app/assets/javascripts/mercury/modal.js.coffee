@@ -132,8 +132,8 @@ class @Mercury.Modal
 
     @element.css {
       left: (viewportWidth - width) / 2
-      width: width
-      height: height
+      width: 'auto'
+      height: 'auto'
       display: if @visible then 'block' else 'none'
       visibility: 'visible'
     }

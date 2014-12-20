@@ -5326,7 +5326,7 @@ Showdown.converter = function() {
       return this.element.css({
         top: top,
         left: left,
-        height: 'auto',
+        height: height,
         display: keepVisible ? 'block' : 'none',
         visibility: 'visible'
       });
